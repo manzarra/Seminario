@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="LinearLayout"
@@ -19,32 +19,30 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:text="ConstraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/button"
+
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="64px"
+        android:layout_marginRight="64px"
         android:text="nine patch bitmaps"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         tools:layout_editor_absoluteX="0dp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="dp e sp"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Imagens vetorizadas"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
@@ -53,6 +51,5 @@
         android:layout_height="wrap_content"
         android:text="Variaveis globais"
         app:layout_constraintTop_toBottomOf="@+id/button5"
-        tools:layout_editor_absoluteX="16dp" />
-
+        tools:layout_editor_absoluteX="161dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
