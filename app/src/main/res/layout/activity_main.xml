@@ -13,7 +13,8 @@
         android:layout_marginTop="16dp"
         android:text="LinearLayout"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="30dp" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
