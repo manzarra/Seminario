@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Seminario</string>
-    <string name="Global1">12</string>
-    <string name="Global2">7</string>
-    <string name="Global3">25</string>
-    <string name="Global4">7890 </string>
-    <string name="Global5">75</string>
-    <string name="Global6">90</string>
-    <string name="Global7">500</string>
-    <string name="Global8">10000</string>
+    <string name="Global1">1</string>
+    <string name="Global2">-1</string>
+    <string name="Global3">1</string>
+    <string name="Global4">-1 </string>
+    <string name="Global5">500000000000</string>
+    <string name="Global6">-1</string>
+    <string name="Global7">1</string>
+    <string name="Global8">-1</string>
 </resources>

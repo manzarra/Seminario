@@ -5,6 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bubble"
+        android:text="Aqui é onde vamos criar as variaveis globais"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_background"
+        android:text="Exercicio - Alterar os valores a seguir para +1 e -1 sequencialmente"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+         />
+
+
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"

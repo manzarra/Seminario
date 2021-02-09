@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void linear(View view) {
         setContentView(R.layout.linearlayout);
+        int bi = variaveis.bi;
     }
 
     public void bitmap(View view) {
